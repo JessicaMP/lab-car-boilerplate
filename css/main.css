@@ -96,6 +96,7 @@ body {
   margin-left: -30px;
 }
 
+
 .top20 {
   margin-top: 20px;
 }
@@ -222,4 +223,24 @@ body {
 .modal-color-user-box {
   background-color: #08f;
   width: 250px;
+}
+
+.margin-left {
+  margin-left: 3.5%;
+}
+
+.modal-registrate {
+  padding: 10px;
+}
+
+.modal-registrate, .modal-registrate-body {
+    border-radius: 5px;
+}
+
+.modal-registrate-color {
+  background-color: #bbb;
+}
+
+.modal-registrate-body {
+  padding: 5px;
 }
