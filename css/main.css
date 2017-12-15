@@ -5,13 +5,17 @@ body {
 }
 
 .border {
-  border-bottom: none;
+  border: none;
 }
 
 .border-white {
   border: 2px solid white;
-
 }
+
+.border-white-bottom {
+  border-bottom: 2px solid white;
+}
+
 .margin-left {
   margin-left: -20px;
 }
@@ -56,6 +60,9 @@ body {
 
 .text-white {
   color: white;
+}
+
+.space-letter {
   letter-spacing: 2px;
 }
 
@@ -87,12 +94,20 @@ body {
   margin-top: -30px;
 }
 
+.left-30 {
+  margin-left: -30px;
+}
+
 .top20 {
   margin-top: 20px;
 }
 
-.bottom-20 {
-  margin-bottom: -1px;
+.bottom20 {
+  margin-bottom: 20px;
+}
+
+.bottom10 {
+  margin-bottom: 10px;
 }
 
 .top10 {
@@ -101,6 +116,10 @@ body {
 
 .bottom30 {
   margin-bottom: 30px;
+}
+
+.bottom60 {
+  margin-bottom: 60px;
 }
 
 .bottom-30 {
@@ -116,14 +135,24 @@ body {
 .span {
   position: relative;
   top: -40px;
-  left: 25%;
   padding: 10px;
   text-align: center;
   width: 200px;
 }
 
 .padding10 {
-  padding-left: 10px;
+  padding-left: 2%;
+}
+.padding5-right {
+  padding-right: 5px;
+}
+
+.padding10bottom {
+  padding-bottom: 10px;
+}
+
+.padding40top {
+  padding-top: 40px;
 }
 
 .section2-xs {
@@ -156,4 +185,26 @@ body {
 
 .overlay-lg {
   background: rgba(0, 0, 0, 0.6);
+}
+
+.style {
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.letter {
+  font-size: 9px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.position-bottom {
+  position: relative;
+  top: 320px;
+}
+@media(min-width: 1200) {
+  .position-bottom-right {
+    position: relative;
+    top: 140px;
+  }
 }
