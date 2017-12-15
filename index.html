@@ -13,11 +13,11 @@
   </head>
   <body>
     <header class="page-header border">
-      <nav class="nav navbar navbar-default nav-color">
+      <nav class="nav navbar navbar-default nav-color border">
         <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header container-fluid">
-            <button type="button" class="navbar-toggle collapsed  pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -44,7 +44,42 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#">Viaja</a></li>
               <li><a href="#">Conduce</a></li>
-              <li><a href="#">Inicia sesión</a></li>
+              <li>
+                <!-- Button trigger modal -->
+                <a href="#" data-toggle="modal" data-target="#myModal">
+                  Inicia sesión
+                </a>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content modal-color">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div class="modal-color-user-box col-lg-offset-3">
+                          <figure class="modal-color-user">
+                            <img src="assets/images/user.png" alt="" class="img-responsive">
+                          </figure>
+                        </div>
+
+                      </div>
+                      <div class="modal-body col-lg-6 nav-color col-lg-offset-3 top30">
+                        <div class="input-group">
+                          <span class="input-group-addon glyphicon glyphicon-user" id="sizing-addon2"></span>
+                          <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon2">
+                        </div>
+                        <div class="input-group top30">
+                          <span class="input-group-addon glyphicon glyphicon-briefcase" id="sizing-addon2"></span>
+                          <input type="text" class="form-control" placeholder="Password" aria-describedby="sizing-addon2">
+                        </div>
+                          <button type="button" class="btn color-yellow text-uppercase text-white top30 col-lg-offset-4"><strong>loging</strong></button>
+                          <h6 class="text-center top30"><strong>Forgot password? <a href="#" class="text-danger">Click here</a></strong></h6>
+                      </div>
+                      <div class="modal-footer bottom30"></div>
+                    </div>
+                  </div>
+                </div>
+              </li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -165,14 +200,14 @@
                 <img src="assets/images/shape.png" alt="" class="img-responsive visible-lg-inline-block visible-xs-inline-block">
               </figure>
               <h6 class="visible-xs-inline-block border-white letter">Insurgentes Centro, Cuauhtémoc, Ciudad de México, Mé</h6>
-              <h4 class="visible-lg-inline-block border-white style col-lg-7">Ingresa su punto de partida</h4>
+              <h4 class="visible-lg-inline-block border-white style col-lg-8">Ingresa su punto de partida</h4>
             </div>
             <div class="top10 visible-lg-inline-block visible-xs-inline-block col-lg-12 left-30">
               <figure class="visible-lg-inline-block visible-xs-inline-block col-lg-2">
                 <img src="assets/images/shape2.png" alt="" class="visible-xs-inline-block visible-lg-inline-block visible-xs-inline-block img-responsive">
               </figure>
                 <h6 class="visible-xs-inline-block border-white letter">Carolina, Ciudad de los Deportes, Ciudad de México, Mé</h6>
-                <h4 class="visible-lg-inline-block border-white style col-lg-7">Ingresa su destino</h4>
+                <h4 class="visible-lg-inline-block border-white style col-lg-8">Ingresa su destino</h4>
             </div>
             <p class="col-xs-offset-3 col-lg-offset-3 visible-xs-block visible-lg-block">
               <button type="button" class="btn btn-default btn-lg text-uppercase top30"><strong>¡Trazar ruta!</strong></button>
@@ -250,7 +285,7 @@
         </div>
         <div class="col-xs-12 col-lg-12 top10">
           <h6 class="text-white visible-xs">&#169; 2017 LabCar technologies Inc.</h6>
-          <h4  class="text-white visible-lg bottom60 col-lg-offset-1 padding10">&#169; 2017 LabCar technologies Inc.</h4>
+          <h4  class="text-white visible-lg bottom60">&#169; 2017 LabCar technologies Inc.</h4>
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

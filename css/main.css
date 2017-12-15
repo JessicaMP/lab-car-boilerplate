@@ -22,7 +22,6 @@ body {
 
 .nav-color {
   background-color: white;
-  border: none;
 }
 
 .section1 {
@@ -31,7 +30,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 700px;
-  vertical-align: middle;
 }
 
 .section1-xs {
@@ -120,6 +118,7 @@ body {
 
 .bottom60 {
   margin-bottom: 60px;
+  margin-left: 65px;
 }
 
 .bottom-30 {
@@ -207,4 +206,20 @@ body {
     position: relative;
     top: 140px;
   }
+}
+/*Modales*/
+
+.modal-color {
+  background-color: #1ba;
+}
+
+.modal-color-user {
+  background-color: #39f;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.modal-color-user-box {
+  background-color: #08f;
+  width: 250px;
 }
