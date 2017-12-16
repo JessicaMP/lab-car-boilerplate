@@ -217,11 +217,64 @@
             <h4 class="top30">Conduce cuando quieras</h4>
             <h6>LabCar es una opcion flexible para alcanzar tus metas financieras</h6>
             <p>
-              <button type="button" class="btn btn-default color-yellow text-white"><strong>Conviértete en conductor</strong></button>
+              <button type="button" class="btn btn-default color-yellow text-white" data-toggle="modal" data-target="#myModalConductor"><strong>Conviértete en conductor</strong></button>
             </p>
           </div>
         </div>
     </div>
+
+<!-- Modal Conductor-->
+<div class="modal fade" id="myModalConductor" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content modal-registrate-color">
+      <div class="modal-body">
+        <label for="recipient-name" class="control-label"><h4><strong>¿Tienes vehículo de 4 puertas?</strong></h4></label>
+        <div class="dropdown">
+          <button id="dLabel" data-toggle="dropdown" type="button" class="form-control bottom10"><strong>Si<span class="caret"></span></strong></button>
+          <ul class="dropdown-menu col-lg-12" aria-labelledby="dLabel">
+            <li>No</li>
+          </ul>
+        </div>
+        <label for="recipient-name" class="control-label"><h4><strong>Marca</strong></h4></label>
+        <div class="dropdown">
+          <button id="dLabel" data-toggle="dropdown" type="button" class="form-control"><strong class="">Elige la marca del vehiculo?<span class="caret"></span></strong></button>
+          <ul class="dropdown-menu col-lg-12" aria-labelledby="dLabel">
+            <li>Ford</li>
+            <li>Hyundai</li>
+            <li>Nissan</li>
+            <li>Mercedes-Benz</li>
+            <li>Chevrolet</li>
+          </ul>
+        </div>
+        <h6 class=""><strong>¿No ves tu vehículo en la lista? Envia un correo electronico a <br><a href="#" class="text-primary">sociosmdv@uber.com</a></strong></h6>
+        <label for="recipient-name" class="control-label"><h4><strong>Modelo</strong></h4></label>
+        <div class="dropdown">
+          <button id="dLabel" data-toggle="dropdown" type="button" class="form-control"><strong>Modelo 1<span class="caret"></span></strong></button>
+          <ul class="dropdown-menu col-lg-12" aria-labelledby="dLabel">
+            <li>modelo1</li>
+            <li>modelo2</li>
+            <li>modelo3</li>
+            <li>modelo4</li>
+          </ul>
+        </div>
+        <label for="recipient-name" class="control-label"><h4><strong>Año</strong></h4></label>
+        <div class="dropdown">
+          <button id="dLabel" data-toggle="dropdown" type="button" class="form-control"><strong>2017<span class="caret"></span></strong></button>
+          <ul class="dropdown-menu col-lg-12" aria-labelledby="dLabel">
+            <li>2016</li>
+            <li>2015</li>
+            <li>2014</li>
+            <li>2013</li>
+          </ul>
+        </div>
+        <label for="recipient-name" class="control-label"><h4><strong>Número de la Matrícula</strong></h4></label>
+        <input class="form-control modal-registrate-body" id="message-text" placeholder="Número de la matrícula"></input>
+        <h4 class=""><strong>La información de su matrícula ayuda a los clientes a identificar un vehículo</strong></h4>
+        <button type="button" class="form-control modal-color text-white" data-dismiss="modal"><strong>Enviar</strong></button>
+      </div>
+    </div>
+  </div>
+</div>
     </section>
     <section class="color-yellow text-white container-fluid">
       <div class="top30">
