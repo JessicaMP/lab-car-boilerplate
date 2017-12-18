@@ -17,7 +17,7 @@ body {
 }
 
 .margin-left {
-  margin-left: -20px;
+  margin-left: -17px;
 }
 
 .nav-color {
@@ -79,7 +79,7 @@ body {
 }
 
 .img-weight-small {
-  width: 20%;
+  width: 25%;
   vertical-align: sub;
   padding-left: 20px;
 }
@@ -202,7 +202,9 @@ body {
   position: relative;
   top: 320px;
 }
+
 @media(min-width: 1200) {
+
   .position-bottom-right {
     position: relative;
     top: 140px;
@@ -225,7 +227,7 @@ body {
   width: 250px;
 }
 
-.margin-left {
+.margin-left-2 {
   margin-left: 3.5%;
 }
 
